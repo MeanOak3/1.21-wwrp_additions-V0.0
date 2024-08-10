@@ -13,5 +13,3 @@ public class WWRPAdditions implements ModInitializer {
 	public void onInitialize() {
 	}
 }
-
-//test commit
