@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "wwrp",
+	"version": "${version}",
+	"name": "WWRP Additions",
+	"description": "The WWRP Mod, by MeanOak3",
+	"authors": [
+		"MeanOak3"
+	],
+	"contact": {
+		"homepage": "NULL",
+		"sources": "https://modrinth.com/dashboard"
+	},
+	"license": "MIT",
+	"icon": "assets/wwrp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.oak.wwrp.WWRPAdditions"
+		],
+		"fabric-datagen": [
+			"net.oak.wwrp.WWRPAdditionsDataGenerator"
+		],
+		"client": [
+			"net.oak.wwrp.WwrpModClient"
+		]
+	},
+	"mixins": [
+		"wwrp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
