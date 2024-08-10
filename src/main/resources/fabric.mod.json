@@ -8,8 +8,8 @@
 		"MeanOak3"
 	],
 	"contact": {
-		"homepage": "NULL",
-		"sources": "https://modrinth.com/dashboard"
+		"homepage": "https://modrinth.com/dashboard",
+		"sources": "https://github.com/MeanOak3/1.21-wwrp_additions-V0.0"
 	},
 	"license": "MIT",
 	"icon": "assets/wwrp/icon.png",
