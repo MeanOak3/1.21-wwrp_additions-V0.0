@@ -1,4 +1,4 @@
 package net.oak.wwrp.entity;
 
-public class ModEntities {
+public class HumanEntity {
 }
